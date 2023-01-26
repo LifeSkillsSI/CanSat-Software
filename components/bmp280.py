@@ -3,7 +3,7 @@ from smbus2 import SMBus
 
 class BMP280():
     # Set i2c to False in order to use BMP280 over spi
-    def __init__(self, i2c = True, i2c_bus = 0, gnp = 1008.0):
+    def __init__(self, i2c = True, i2c_bus = 0, gnp = 1010.0):
         self.i2c_enabled = i2c
         self.gnp = gnp # Ground level pressure
         if i2c:
