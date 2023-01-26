@@ -45,6 +45,10 @@ class MCP3008(spidev.SpiDev):
     def __repr__(self):
         return 'MCP3008 object at bus {0}, device {1}'.format(self.bus, self.device)
 
+    def setup(self):
+        # Setup not required here
+        pass
+
     def _read(self, channels):
         reading = []
         for ch in channels:
