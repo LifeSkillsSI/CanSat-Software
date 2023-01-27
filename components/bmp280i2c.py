@@ -1,4 +1,4 @@
-"""BMP280 Driver taken from https://github.com/pimoroni/bmp280-python under the following license:
+"""BMP280 I2C Driver taken from https://github.com/pimoroni/bmp280-python under the following license:
 MIT License
 
 Copyright (c) 2018 Pimoroni Ltd.
