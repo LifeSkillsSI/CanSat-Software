@@ -1,3 +1,4 @@
 spidev==3.6
 psutil==5.9.4
 smbus2==0.4.2
+i2cdevice==0.0.7
