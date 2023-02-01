@@ -38,7 +38,7 @@ def main_loop():
         time.sleep(1-(time.time()-beginning))
         counter += 1
 
-    with open("data.csv", "w") as f:
+    with open("data" + str((time.time()*10)//1)+".csv", "w") as f:
         writer = csv.writer(f)
         writer.writerows(table)
 
