@@ -10,10 +10,10 @@ To-do: main algorithm loop prototype.
 - MCP3008 (SPI)
 - LM35 (through ADC)
 - ICM20948 (I2C)
+- SX1278 (SPI)
+- Adafruit Ultimate GPS (UART?)
 
 ## To-do components
-- Adafruit Ultimate GPS (UART?)
-- SX1278 (SPI)
 - Web camera (USB)
 - Camera (BananaPi CSI)
 - Camera (RaspberryPi CSI) (maybe)
