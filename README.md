@@ -4,6 +4,7 @@ To-do: main algorithm loop prototype.
 ## Requirements
 - requirements.txt
 - [our pySX127x fork](https://github.com/LifeSkillsSI/pySX127x)
+- currently works on [Qengineering's image](https://github.com/Qengineering/BananaPi-M2-Zero-OV5640)
 
 ## Supported components
 - BMP280 (I2C)
@@ -12,9 +13,7 @@ To-do: main algorithm loop prototype.
 - ICM20948 (I2C)
 - SX1278 (SPI)
 - Adafruit Ultimate GPS (UART?)
+- Camera (OV5640) (BananaPi 24-pin CSI)
 
 ## To-do components
-- Web camera (USB)
-- Camera (BananaPi CSI)
-- Camera (RaspberryPi CSI) (maybe)
-- BMP280 (SPI) (maybe)
+- Google Coral TPU (USB)
