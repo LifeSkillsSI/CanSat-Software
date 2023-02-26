@@ -5,6 +5,7 @@ To-do: main algorithm loop prototype.
 - requirements.txt
 - [our pySX127x fork](https://github.com/LifeSkillsSI/pySX127x)
 - currently works on [Qengineering's image](https://github.com/Qengineering/BananaPi-M2-Zero-OV5640)
+- Coral libraries - [Coral USB getting started](https://coral.ai/docs/accelerator/get-started)
 
 ## Supported components
 - BMP280 (I2C)
@@ -14,6 +15,7 @@ To-do: main algorithm loop prototype.
 - SX1278 (SPI)
 - Adafruit Ultimate GPS (UART?)
 - Camera (OV5640) (BananaPi 24-pin CSI)
+- Google Coral TPU (USB)
 
 ## To-do components
-- Google Coral TPU (USB)
+- Support for multi-model Coral inference?
